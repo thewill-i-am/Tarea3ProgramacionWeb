@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <h1> Display: </h1>
+
+
+    Esta propiedad altera el posicionamiento de las cosas en la pantalla y existen varios tipos que vamos a detallar debajo
+
+    <section>
+        <div class="comun-imagen">
+            lorem ipsum
+        </div>
+        <div class="comun-imagen">
+            lorem ipsum
+        </div>
+    </section>
+
+
+    <section class="span">
+        Por otro lado, el display:inline posiciona el elemento uno al lado del otro y estos solo ocuparán el espacio necesario para contener sus características, es decir, a diferencia del block, este no ocupa el ancho de la pantalla ni el largo, solamente lo
+        necesario. Ejemplo:
+    </section>
+
+
+    <section>
+
+        <a href=""> Este es un elemento de link que esta con display inline por defecto</a> ----
+        <a href=""> Este es un segundo elemento de link que esta con display inline por defecto</a>
+    </section>
+
+    <h3>Posibles parámetros de esta propiedad:</h3>
+
+    <ul>
+        <li>display: block;</li>
+        <li>display: inline;</li>
+        <li>display: inline-block;</li>
+        <li>display: flex;</li>
+        <li>display: inline-flex;</li>
+        <li>display: grid;</li>
+        <li>display: inline-grid;</li>
+        <li>display: flow-root;</li>
+    </ul>
+
+
+
+
+    <h1> Visibility: </h1>
+
+    Esta propiedad permite que los elementos sean visibles en la página o sea ocultos, pero siempre ocupando el lugar que necesitan. Existen dos parámetros comunes: visible y hidden. El visible, como su palabra lo indica, hace posible que los elementos sean
+    visebles en la página web. Por el contrario, el hidden oculta el elemento, pero este siempre ocupa el espacio que necesita.
+
+    </br>
+
+    <h4>visible</h4>
+
+    <div style="visibility: visible; border: none; margin-top: 20px;">
+        <div class="comun-imagen" style="display: inline;">
+            lorem ipsum
+        </div>
+
+        <div class="comun-imagen" style="display: inline;">
+            lorem ipsum
+        </div>
+    </div>
+
+    </br>
+    <h4>hidden</h4>
+
+    <div style="visibility: visible; border: none; margin-top: 20px;">
+        <div class="comun-imagen" style="display: inline;">
+            lorem ipsum
+        </div>
+
+        <div class="comun-imagen" style="display: inline; visibility: hidden;">
+            lorem ipsum
+        </div>
+    </div>
+
+    </br>
+
+    <h3>Posibles parámetros de esta propiedad:</h3>
+
+    <ul>
+        <li>visibility: visible;</li>
+        <li>visibility: hidden;</li>
+        <li>visibility: collapse;</li>
+    </ul>
+
+    <h1> Overflow: </h1>
+
+    Esta propiedad funciona cuando tenemos un desbordamiento de un elemento en un área que le hemos especificado, por ejemplo texto. Con Overflow podemos tratar estos tipos de inconvenientes. Con sus 3 parámetros más comunes como: visible, hidden y scroll.
+    Lo que hace visible es visibilizar el desbordamiento del elemento en el área. Con hidden, por el contrario ocultamos todo el desbordamiento del elemento, de tal manera que corta el área en el que este se desborda. Por último, scroll permite que ese
+    elemento desbordado alcance en el área, pero con una condición de poder visualizar el elemento entero pero haciendo scroll down
+
+
+    </br>
+
+
+    <h3>Posibles parámetros de esta propiedad:</h3>
+
+    <ul>
+        <li>overflow: visible;</li>
+        <li>overflow: hidden;</li>
+        <li>overflow: scroll;</li>
+    </ul>
+
+    </br>
+
+
+    <h2>Diferencias entre cada elemento:</h2>
+
+    Tal y como se explico en cada propiedad, estas son utilizadas de acuerdo al objetivo que se persiga. Cada uno de estas propiedades cumple con funcionalidades diferentes que son utilizadas según la necesidad del programador, por ello, la diferencia radica
+    en las funcionalidades y usos que se hagan de estas propiedades.
+
+    </br>
+
+
+
+    <h2>Explicación del comportamiento de los cuadros:</h2>
+
+
+    R\ Primero que todo, los contenedores que tienen los elementos de texto tienen un alto diferente, provocando que uno de ellos tenga un desbordamiento de texto. Cabe mencionar que el display está en bloque (block) y el overflow del primer cuadro (y posiblemente
+    el segundo también) esta visible, lo que provoca que el desbordamiento del texto sea visible. El texto también tiene márgenes que al parecer están centrados. Obviamente, una de las posibles soluciones es ajustar el overflow con el parámetro scroll
+    o si no, ajustar el alto del primer cuadro a mayor longitud.
+
+    <div class="boton-cambio">
+        <a href="index.html" target="_blanck">Ir al Index</a>
+    </div>
+
+</body>
+
+</html>
