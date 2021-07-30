@@ -10,12 +10,8 @@
 </head>
 
 <body>
-
     <h1> Display: </h1>
-
-
     Esta propiedad altera el posicionamiento de las cosas en la pantalla y existen varios tipos que vamos a detallar debajo
-
     <section>
         <div class="comun-imagen">
             lorem ipsum
@@ -33,7 +29,6 @@
 
 
     <section>
-
         <a href=""> Este es un elemento de link que esta con display inline por defecto</a> ----
         <a href=""> Este es un segundo elemento de link que esta con display inline por defecto</a>
     </section>
@@ -42,11 +37,8 @@
 
     <ul>
         <li>display: block;</li>
-        <li>display: inline;</li>
         <li>display: inline-block;</li>
         <li>display: flex;</li>
-        <li>display: inline-flex;</li>
-        <li>display: grid;</li>
         <li>display: inline-grid;</li>
         <li>display: flow-root;</li>
     </ul>
@@ -116,20 +108,16 @@
 
 
     <h2>Diferencias entre cada elemento:</h2>
-
-    Tal y como se explico en cada propiedad, estas son utilizadas de acuerdo al objetivo que se persiga. Cada uno de estas propiedades cumple con funcionalidades diferentes que son utilizadas según la necesidad del programador, por ello, la diferencia radica
-    en las funcionalidades y usos que se hagan de estas propiedades.
+    Las mayores diferencias es que Display basicamente controla la forma en las se muestran los elementos mas basado en un tema de posicionamiento, Visibility funciona para ocultar o mostrar cosas pero es mas estatico, y el overflow basicamente lo que hace
+    es controlar los elementos cuando se salen de un div, y se puede controlar desde si se quiere mostras hasta crear un scroll-over para scrollear
 
     </br>
 
 
-
     <h2>Explicación del comportamiento de los cuadros:</h2>
 
-
-    R\ Primero que todo, los contenedores que tienen los elementos de texto tienen un alto diferente, provocando que uno de ellos tenga un desbordamiento de texto. Cabe mencionar que el display está en bloque (block) y el overflow del primer cuadro (y posiblemente
-    el segundo también) esta visible, lo que provoca que el desbordamiento del texto sea visible. El texto también tiene márgenes que al parecer están centrados. Obviamente, una de las posibles soluciones es ajustar el overflow con el parámetro scroll
-    o si no, ajustar el alto del primer cuadro a mayor longitud.
+    Eso sucede por que el cuadro tiene un "height" basado en pixeles y no en auto como deberia de ser, entonces como pasa eso si el contenido supera el tamanio del papa se va a salir como en la imagen 1.
+    <br><br> En el caso 2 el overflow:hidden esta presenete por lo que el texto se corta
 
     <div class="boton-cambio">
         <a href="index.html" target="_blanck">Ir al Index</a>
