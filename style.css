@@ -114,3 +114,14 @@ p {
     background-color: yellow;
     background-image: url(https://img.freepik.com/vector-gratis/icono-realista-vidrio-esmerilado-roto_1284-12125.jpg?size=338&ext=jpg&ga=GA1.2.2035773488.1627516800);
 }
+
+.visible {
+    visibility: visible;
+    border: none;
+    margin-top: 20px;
+}
+
+.hiden {
+    display: inline;
+    visibility: hidden;
+}
