@@ -90,7 +90,7 @@ p {
     height: 400px;
     margin: 40px;
     padding: 40px;
-    border: dashed 10px orange;
+    border: ridge 10px orange;
     background-position: center;
     background-repeat: no-repeat;
 }
