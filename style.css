@@ -86,7 +86,7 @@ p {
     background-repeat: no-repeat;
 }
 
-.div_ejer4 {
+.contedor-imagen {
     width: 400px;
     height: 400px;
     margin: 40px;
@@ -94,4 +94,24 @@ p {
     border: dashed 10px orange;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.chocolate {
+    background-color: chocolate;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Android_robot.png/756px-Android_robot.png);
+}
+
+.blue {
+    background-color: blue;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Android_robot.png/756px-Android_robot.png);
+}
+
+.royalblue {
+    background-color: royalblue;
+    background-image: url(https://www.lda.cr/assets/bf58b018.png);
+}
+
+.brown {
+    background-color: brown;
+    background-image: url(https://seeklogo.com/images/C/Club_Sport_Herediano_de_Heredia-logo-3ED2C73A6B-seeklogo.com.png);
 }
